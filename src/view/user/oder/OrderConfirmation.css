@@ -1,0 +1,152 @@
+.confirmation-page {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.confirmation-header {
+  background: linear-gradient(135deg, #3498db, #2ecc71);
+  color: white;
+  padding: 3rem 0;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.confirmation-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.confirmation-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.order-info {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.order-info p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.order-info strong {
+  color: #3498db;
+}
+
+.confirmation-table {
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.confirmation-table th {
+  background: #f8f9fa;
+  color: #2c3e50;
+  font-weight: 600;
+  padding: 1rem;
+  text-align: left;
+}
+
+.confirmation-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.delivery-info {
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+  padding: 3rem 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.delivery-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.delivery-info p {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.home-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.home-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.status-pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-completed {
+  background: #d4edda;
+  color: #155724;
+}
+
+@media (max-width: 768px) {
+  .confirmation-header {
+    padding: 2rem 1rem;
+  }
+
+  .confirmation-header h2 {
+    font-size: 2rem;
+  }
+
+  .confirmation-container {
+    padding: 0 1rem;
+  }
+
+  .confirmation-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .delivery-info {
+    padding: 2rem 1rem;
+  }
+
+  .delivery-icon {
+    font-size: 3rem;
+  }
+} 
